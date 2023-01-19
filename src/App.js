@@ -1,4 +1,4 @@
-import Forms from "./component/forms";
+import Forms from "./component/Forms";
 
 const App=()=>{
   return <Forms></Forms>
