@@ -5,7 +5,7 @@ const Forms=()=>{
     let data=Country;
     return <section className="form-block">
             <form>
-                <label for="search">Search Country</label>
+                <label htmlFor="search">Search Country</label>
                 <input type="text" placeholder="search country.." id="search" list="country"></input>
                 <datalist id="country">
                 {data.map((value)=>{
